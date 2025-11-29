@@ -14,7 +14,7 @@ def get_color(number):
 
 st.title("🎯 Wingo AI Color Predictor")
 st.markdown("Aakhri 3 numbers daalein:")
-
+st.st.markdown("<h4 style='text-align: center; color: grey;'>Smart AI-Based Prediction for Wingo</h4>", unsafe_allow_html=True)
 n1 = st.number_input("Number 1", 0, 9, step=1)
 n2 = st.number_input("Number 2", 0, 9, step=1)
 n3 = st.number_input("Number 3", 0, 9, step=1)
