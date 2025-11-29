@@ -33,3 +33,5 @@ n3 = st.number_input("Number 3", 0, 9, step=1)
 ‎Show previous results
 ‎if st.session_state.history:
 ‎    st.subheader("📜 Previous Predictions:")
+for idx, (pattern, result) in enumerate(reversed(st.session_state.history[-5:]), 1):
+‎        st.write(f"{idx}. Pattern: {pattern} → Prediction: {result}")
