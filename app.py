@@ -19,7 +19,7 @@ n1 = st.number_input("Number 1", 0, 9, step=1)
 n2 = st.number_input("Number 2", 0, 9, step=1)
 n3 = st.number_input("Number 3", 0, 9, step=1)
 
-‎if 'history' not in st.session_state:
+‎if'history'not in St. session_state:
 ‎    st.session_state.history = []
 ‎
 ‎if st.button("🔮 Predict"):
