@@ -3,7 +3,11 @@ import streamlit as st
 import random
 st.set_page_config(page_title="Wingo Predictor", layout="centered")
 
-Custom CSS for styling
+
+‎st.set_page_config(page_title="Wingo Predictor", layout="centered")
+‎
+‎Custom CSS for styling
+‎
 st.markdown("""
     <style>
         .main {
