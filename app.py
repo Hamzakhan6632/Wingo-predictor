@@ -18,8 +18,7 @@ st.st.markdown("<h4 style='text-align: center; color: grey;'>Smart AI-Based Pred
 n1 = st.number_input("Number 1", 0, 9, step=1)
 n2 = st.number_input("Number 2", 0, 9, step=1)
 n3 = st.number_input("Number 3", 0, 9, step=1)
-
-‎'history' not in st.session_state:
+if 'history' not in St. session_state:
 ‎    st.session_state.history = []
 ‎
 ‎if st.button("🔮 Predict"):
